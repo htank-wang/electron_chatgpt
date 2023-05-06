@@ -37,4 +37,3 @@
 ```
  npm run build
 ```
-# electron_chatgpt

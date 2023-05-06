@@ -1,0 +1,50 @@
+{
+  "name": "electron_chatgpt",
+  "version": "1.0.0",
+  "main": "dist-electron/main/index.js",
+  "description": "ChatGPT Application with electron",
+  "author": "hankwang <624890025@qq.com>",
+  "license": "MIT",
+  "private": true,
+  "keywords": [
+    "electron",
+    "rollup",
+    "vite",
+    "vue3",
+    "vue"
+  ],
+  "debug": {
+    "env": {
+      "VITE_DEV_SERVER_URL": "http://localhost:3344/"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build && electron-builder",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.1.0",
+    "electron": "^23.1.1",
+    "electron-builder": "^23.6.0",
+    "less": "^4.1.3",
+    "typescript": "^5.0.2",
+    "unplugin-vue-components": "^0.24.1",
+    "vite": "^4.1.4",
+    "vite-plugin-electron": "^0.11.2",
+    "vite-plugin-electron-renderer": "^0.14.1",
+    "vue": "^3.2.47",
+    "vue-tsc": "^1.2.0"
+  },
+  "dependencies": {
+    "@electron/remote": "^2.0.9",
+    "@kangc/v-md-editor": "^2.3.15",
+    "ant-design-vue": "^3.2.17",
+    "axios": "^1.3.5",
+    "electron-store": "^8.1.0",
+    "highlight.js": "^11.8.0",
+    "qs": "^6.11.1",
+    "vue-clipboard3": "^2.0.0",
+    "vue-meditor": "^2.1.2"
+  }
+}
