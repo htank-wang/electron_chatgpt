@@ -1,7 +1,7 @@
 ## ChatGPT Application with electron
 
 - AI Chat uses the `gpt-3.5-turbo` model.
-- Quick start with just open api key
+- Quick start with just [openai key](https://platform.openai.com/account/api-keys)
 - Data is stored locally and never expires
 - Good user experience
 
